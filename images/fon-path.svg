@@ -1,0 +1,26 @@
+<!-- <svg width="805" height="640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+		<linearGradient id="linear-gradient"  x1="0" y1="50%" x2="100%" y2="50%">
+			<stop offset="0%" stop-color="#FE885D"/>
+			<stop offset="80%" stop-color="#FF2F96"/>
+		</linearGradient>
+		</defs>
+  <path d="M10 44 Q 65 7 133 27 Q420 135 570 345 Q 725 613 460 804 H 10 V 44" stroke="transparent"
+  fill="url(#linear-gradient)"
+  transform="translate(0,650) rotate(-90)"/>
+  
+</svg> -->
+
+
+<svg width="1900" height="650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+		<linearGradient id="linear-gradient"  x1="0" y1="60%" x2="100%" y2="40%">
+			<stop offset="0%" stop-color="#FE885D"/>
+			<stop offset="80%" stop-color="#FF2F96"/>
+		</linearGradient>
+		</defs>
+  <path d="M0 650 Q 300 300, 500 400 T 850 300 Q 1100 50, 1350 250 T 1900 100 V 650 H 0" stroke="transparent"
+  
+  fill="url(#linear-gradient)"/>
+  
+</svg>

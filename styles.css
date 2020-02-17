@@ -1,0 +1,349 @@
+html, body {
+	font-family: 'Lora', serif;	
+	overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth; 
+}
+h1 {
+	font-size: 100px;
+	margin: 120px auto 50px;
+}
+h2 {
+	font-size: 55px;
+	margin: 0 auto;
+}
+h3 {
+	font-size: 42px;
+}
+li {
+	list-style: none;
+}
+button:focus, button:focus-within {
+    outline: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav__item a:hover {
+	color: #F53F4F;
+	text-decoration: underline;
+}
+.call-block__number {
+	font-size: 26px;
+	font-weight: bold;
+}
+.call-block__number a:hover, .footer-contacts a:hover {
+	color: black;
+	text-decoration: none;
+}
+.gray {
+	background-color: #FBFBFB;
+}
+.svg {
+	background: url(images/fon-path.svg) 0% 100% / cover no-repeat;
+	padding-top: 50px;
+	padding-bottom: 33px;
+}
+.block-introduction {
+	
+	position: relative;
+}
+.block-introduction__text_small {
+	color: #61687A; 
+	text-shadow: 1px 1px 2px #FFFFFF;
+	font-size: 22px;
+}
+.transform {
+	transform: rotate(90deg);
+	margin: 50px auto;
+}
+.prev, .next {
+	width: 50px;
+	height: 50px;
+	background-color: #FF6E6F;
+}
+.img-lable {
+	color: white;
+	background-color: #808080;
+	box-shadow: 0 0 20px #303030;
+	opacity: 0.4;
+}
+.img-lable:hover {
+	color: white;
+	opacity: 0.9;
+}
+.carousel-indicators {
+	background-color: #303030;
+}
+.button_orange {
+	width: 270px;
+	height: 60px;
+	background: #ff4f30;
+	color: white;
+	cursor: pointer;
+	margin: 30px auto;
+	border-style: none;
+	font-size: 18px;
+}
+.button_orange:hover {
+	background: linear-gradient(to bottom left, #FF6E6F, #FF5181);
+}
+
+.skills-list__item {
+	color: #8993AD;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.skill-icon {
+	background: top no-repeat;
+	height: 75px;
+}
+.skill-icon:hover {
+	transform: scale(1.2);
+}
+.skill-icon_1 {
+	background-image: url(Icons/Landing.png);
+}
+.skill-icon_2 {
+	background-image: url(Icons/Adaptiv.png);
+}
+.skill-icon_3 {
+	background-image: url(Icons/Frotend.png);
+}
+.skill-icon_4 {
+	background-image: url(Icons/Repair.png);
+}
+.block-gradient {
+	background: linear-gradient(to bottom left, #FF2F96, #FF8F5A); 
+	position: relative;
+}
+.block-proposal {
+	color: white;
+	line-height: 2;
+}
+.block-proposal p {
+	font-size: 18px;
+}
+.block-gradient {
+	color: #FFFFFF;
+}
+.nav__item_footer a {
+	color: #8993AD;
+}
+.footer-contacts {
+	font-size: 20px;
+}
+.footer-contacts i {
+	background: linear-gradient(to bottom, #ff3094, #ff895e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.fa-phone {
+	transform: scale(-1, 1);
+}
+.call-block__button_footer {
+	width: 206px;
+	height: 45px;
+	background-color: transparent;
+	color: #F53F4F;
+	cursor: pointer;
+	margin: 0;
+	border: 1px solid #F82370;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.call-block__button_footer:hover  {
+	background: linear-gradient(to bottom left, #FF6E6F, #FF5181);
+	color: #FFFFFF;
+}
+.soc-block__icons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+}
+.soc-block__icon a{
+	width: 35px;
+	height: 35px;
+	background: url(images/soc-sprite-s.png) no-repeat;
+	margin-right: 15px;
+	cursor: pointer;    
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 20px;
+   }
+
+.vk a {
+	background-position: -5px -110px;
+	}
+.facebook a {
+	background-position: -109px -58px;
+}
+.twitter a {
+	background-position: -57px -6px;
+}
+.instagram a {
+	background-position: -6px -58px;
+}
+.black-line {
+	background-color: black;
+	color: white;
+}
+/* .black-line p {
+	padding: 30px 0;
+	text-align: center;
+	margin: 0;
+} */
+.header__icon {
+	display: none;
+	border: none;
+	width: 45px;
+	height: 32px;
+	cursor: pointer;
+	z-index: 4;
+	}
+.header__button {
+	border: 0;
+	outline: 0;
+	position: relative;
+	top: 3px;
+	width: 45px;
+	height: 6px;
+	background: linear-gradient(to left bottom, #FF428A, #FF756A);
+	cursor: pointer;
+}
+.header__button::after, .header__button::before {
+	transition: all 0.5s;
+	position: absolute;
+	content: '';
+	display: block;
+	width: 45px;
+	height: 6px;
+	top: 0;
+	left: 0;
+}
+.header__button::after {
+	top: 13px;
+	background: linear-gradient(to left bottom, #FF726C, #FF8F5A);
+}
+.header__button::before {
+	top: -13px;
+	background: linear-gradient(to left bottom, #FF2F96, #FF4886);
+}
+.open {
+	background: transparent;
+}
+.open::after {
+	transform: rotate(-45deg);
+	top: 0;
+}
+.open::before {
+	transform: rotate(45deg);
+	top: 0;
+}
+.nav_mobile {
+	
+	position: absolute;
+	z-index: 3;
+	line-height: 3;
+	opacity: 0.9;
+	background-color: #FFFFFF;
+}
+.hide {
+	display: none;
+}
+.nav__item_mobile {
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+}
+.nav__item_mobile_img {
+	min-height: 60px;
+	background: url(Icons/briefcase.png) center / contain no-repeat;
+	margin: 100px auto 50px;
+}
+#up {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #FF004A;
+	border-radius: 100%;
+	transition: background-color .3s;
+	border-style: none;
+	box-shadow: 0 0 40px #FF004A;
+	opacity: 0.3;
+	font-size: 40px;
+	z-index: 100;
+}
+#up:hover {
+	cursor: pointer;
+	background-color: #ff4f30;
+}
+#up:active {
+	background-color: #ff4f30;
+}
+
+  #up.show {
+	opacity: 0.8;
+	visibility: visible;
+  }
+  i.fa-chevron-up {
+	color: white;
+  }
+
+  .fas,
+.fas a {
+  color: #FFFFFF;
+}
+.form_contact, .form_call {
+	display: none;
+	position: fixed;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	padding: 10px;
+	z-index: 1000000;
+	opacity: 0.9;
+	background-color: #FFFFFF;
+	text-align: center;
+	border-color: #FA0990;
+	box-shadow: 20px 0 100px #FA0990;
+
+}
+input, textarea {
+	font-size: 20px;
+	border: 2px solid #ff4f30;
+}
+.form_lable {
+	margin: 20px 0;
+}
+.submit {
+	margin: 0 auto 20px;
+	width: 230px;
+	height: 60px;
+	background-color: #ff4f30;
+	color: white;
+	cursor: pointer;
+	border-style: none;
+	font-size: 18px;
+}
+.fa-times-circle {
+	font-size: 40px;
+	border-radius: 20px;
+	color: #ff4f30;
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	box-shadow: 0 0 100px #ff4f30;
+	background-color: #ffffff;
+}
+.fa-times-circle:hover {
+	font-size: 50px;
+	border-radius: 30px;
+}
